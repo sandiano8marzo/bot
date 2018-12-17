@@ -17,7 +17,7 @@
 		{
 		  exit;
 		}
-
+		echo "ciao";
         //altrimenti proseguo e vado a leggere il messaggio salvandolo nella variabile 
 		//message
 		$message = isset($update['message']) ? $update['message'] : "";
