@@ -4,7 +4,7 @@
 		require 'functions.php';
 		
 		//$api="487428045:AAFHYEqqftrK7xJvW8_9anPiodBw0HHuWkE";
-		$api ='487428045:AAFHYEqqftrK7xJvW8_9anPiodBw0HHuWkE';
+		$api ='487428045:AAGt0XWbiW9lvBfwBQ9iZ64E9A0s0-UBZuM';
 
 		
 		
@@ -17,7 +17,7 @@
 		{
 		  exit;
 		}
-		echo "ciao";
+		//echo "ciao";
         //altrimenti proseguo e vado a leggere il messaggio salvandolo nella variabile 
 		//message
 		$message = isset($update['message']) ? $update['message'] : "";
