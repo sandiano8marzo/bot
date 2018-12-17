@@ -3,7 +3,9 @@
 		require 'class-http-request.php';
 		require 'functions.php';
 		
-		$api="487428045:AAFHYEqqftrK7xJvW8_9anPiodBw0HHuWkE";
+		//$api="487428045:AAFHYEqqftrK7xJvW8_9anPiodBw0HHuWkE";
+		$api ='487428045:AAFHYEqqftrK7xJvW8_9anPiodBw0HHuWkE';
+
 		
 		
 		//prendo quello che mi è arrivato e lo salvo nella variabile content
