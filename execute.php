@@ -76,8 +76,8 @@
 
 		if($text=="barze"){
 			$barze[0] = "Qual è la città preferita dai ragni? Mosca!";
-			$barze[1] = "Che cos\'è una zebra? Un cavallo evaso dal carcere!";
-			$barze[2] = "Un alunno chiede alla maestra: \“Maestra, posso essere punito per qualcosa che non ho fatto?\”. E la maestra: \“Certo che no! Perché me lo chiedi?\”. Allora l'alunno risponde: \“Perché non ho fatto i compiti!\”.";
+			$barze[1] = "Che cos'è una zebra? Un cavallo evaso dal carcere!";
+			$barze[2] = "Un alunno chiede alla maestra: “Maestra, posso essere punito per qualcosa che non ho fatto?”. E la maestra: “Certo che no! Perché me lo chiedi?”. Allora l'alunno risponde: “Perché non ho fatto i compiti!”.";
 			$num = rand(0,2);
 			$parameters = array('chat_id' => $chatId, "text" => $barze[$num]);
 			
