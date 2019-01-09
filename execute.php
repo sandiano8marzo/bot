@@ -73,7 +73,7 @@
 			$barz[2]="Chi la fa la vende, chi la compra non la USA, chi la usa non la vede, cosa è???? La tomba. ";
 			$barz[3]="Qual è il colmo per un giardiniere? Piantare la fidanzata.";
 			
-			$i = srand(0,3); 
+			$i = rand(0,3); 
 			
 			$parameters = array('chat_id' => $chatId, "text" => $barz[$i]);
 		}
