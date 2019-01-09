@@ -66,6 +66,19 @@
 			//sendFoto($chatId,$foto[$num],false,"La mia Foto", $api);
 			sendFoto($chatId,"foto.png",false,"La mia Foto", $api);
 		}
+
+		if($text=='barz'){
+			$barz[0]="Un cavallo va dal benzinaio e chiede: il fieno per favore! ";
+			$barz[1]="Qual è il colmo per un tuffatore? Fare un buco nell'acqua.";
+			$barz[2]="Chi la fa la vende, chi la compra non la USA, chi la usa non la vede, cosa è???? La tomba. ";
+			$barz[3]="Qual è il colmo per un giardiniere? Piantare la fidanzata.";
+			
+			$i = srand(0,3); 
+			
+			$parameters = array('chat_id' => $chatId, "text" => $barz[$i]);
+		}
+
+
 		if($text=="audio"){
 			sendAudio($chatId,"audio.mp3",false,"Il mio Audio", $api);
 			
