@@ -47,13 +47,13 @@
 		header("Content-Type: application/json");
 		//i parametri sono cosa voglio mandare indietro al mio utente
 		$parameters = array('chat_id' => $chatId, "text" => $text);
-		if ($text=="data"){
+		if ($text=="data"||$text=="/data"){
 			
 			$text = "La data odierna è ".date("d.m.y");
 			$parameters = array('chat_id' => $chatId, "text" => $text);             
 			
 		}
-		if ($text=="ciao"){
+		if ($text=="ciao"||$text=="/ciao"){
 			$text = "Benvenuto sul bot dell' 8 marzo";
 			
 			$parameters = array('chat_id' => $chatId, "text" => $text);             
@@ -67,7 +67,7 @@
 			sendFoto($chatId,$foto[$i],false,"La mia Foto", $api);
 		}
 
-		if($text=='barz'){
+		if($text=='barz'||$text=='/barz'){
 			$barz[0]="Un cavallo va dal benzinaio e chiede: il fieno per favore! ";
 			$barz[1]="Qual è il colmo per un tuffatore? Fare un buco nell'acqua.";
 			$barz[2]="Chi la fa la vende, chi la compra non la USA, chi la usa non la vede, cosa è???? La tomba. ";
