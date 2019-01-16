@@ -83,13 +83,16 @@
 			sendAudio($chatId,"audio.mp3",false,"Il mio Audio", $api);
 			
 		}
-		if($text="jingle"){
+		if($text=="jingle"){
 			sendAudio($chatId,"jingle.mp3",false,"Jingle bells rock", $api);
 		}
 
 		if($text=="testo"){
 			sendDocument($chatId,"testo.pdf",false,"Il mio documento", $api);
 			
+		}
+		if($text=="doc"){
+			sendDocument($chatId,"testo.pdf",false,"Il mio documento", $api);
 		}
 
 		if($text=="barze"){
